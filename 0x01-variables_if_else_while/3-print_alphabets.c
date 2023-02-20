@@ -1,18 +1,26 @@
 #include <stdio.h>
 /**
- * main-Entry point
+ * main-Print the alphabet
  *
  * Return: 0 (Success)
  */
 int main(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+	char c;
 
-	for (i = 0; i < 26; i++)
-	{
-		putchar(alp[i]);
-	}
-		putchar('\n');
-return (0);
+	char d;
+
+	c = 'a';
+	d = 'A';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	while
+		(d <= 'Z') {
+			putchar(c);
+			d++;
+		}
+	return (0);
 }
